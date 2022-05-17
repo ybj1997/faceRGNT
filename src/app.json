@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/auth/main",
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/days/main", 
+    "pages/history/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#20c3af",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/shijian-active.png",
+      "selectedIconPath": "static/tabs/shijian.png"
+    }, {
+      "text": "",
+      "pagePath": "pages/days/main",
+      "iconPath": "static/tabs/days.png",
+      "selectedIconPath": "static/tabs/days-active.png"
+    }],
+
+    "items": [{
+      "name": "",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }, {
+      "name": "",
+      "pagePath": "pages/logs/main",
+      "icon": "static/tabs/shijian-active.png",
+      "activeIcon": "static/tabs/shijian.png"
+    }, {
+      "name": "",
+      "pagePath": "pages/days/main",
+      "icon": "static/tabs/days.png",
+      "activeIcon": "static/tabs/days-active.png"
+    }],
+    "position": "bottom"
+  },
+  "usingComponents": {
+    "van-button": "vant-weapp/dist/button/index",
+    "van-field":"vant-weapp/dist/field/index",
+    "van-toast": "vant-weapp/dist/toast/index",
+    "van-notify": "vant-weapp/dist/notify/index",
+    "van-stepper": "vant-weapp/dist/stepper/index",
+    "van-progress": "vant-weapp/dist/progress/index",
+    "van-nav-bar": "vant-weapp/dist/nav-bar/index",
+    "van-icon": "vant-weapp/dist/icon/index",
+    "van-radio": "vant-weapp/dist/radio/index",
+    "van-radio-group": "vant-weapp/dist/radio-group/index",
+    "van-action-sheet": "vant-weapp/dist/action-sheet/index"
+  }
+}
